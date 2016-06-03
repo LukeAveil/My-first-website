@@ -1,0 +1,82 @@
+@media screen and (max-width: 480px) {
+
+/****************************
+About
+*****************************/
+	.photo {
+		padding: 0 5%;
+	}
+
+	img {
+		max-width: 100%;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+
+	.bio {
+		width: 100%; 
+		text-align: none;	
+		margin: 0 auto;		
+		padding: 0 5%;		
+	}
+
+	.bio h3 {
+		font-size: 1.5em;
+	}
+
+	.bio p {
+		font-size: 1.1em;
+		max-width: 100%;
+		
+	}
+
+/****************************
+Header/Navigation
+*****************************/
+
+	header {
+		border-bottom: none;
+		margin-bottom: 20px;
+	}
+
+	#title {
+		text-align: center;
+		margin: 0;
+		float: none;
+	}
+
+	nav {
+		text-align: center;
+		margin: 0;
+		float: none;
+		background: #8DAFB2;
+	}
+
+	nav ul {
+		margin: 0 10px;
+		padding: 0;
+	}
+
+	nav li {
+		display: inline-block;
+		font-size: 1em;
+		padding: 5px;
+	}
+
+	footer {
+		padding: 30px;
+	}
+
+/****************************
+Contact
+*****************************/
+	label {
+		display: inline-block;
+		width: 90px;
+		text-align: right;
+	}
+
+	input, textarea {	
+		width: 50%;
+	}
+}
